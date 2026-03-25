@@ -40,7 +40,7 @@
   );
 
   // --- Hosted Domain Detect ---
-  let hostedDomain = "https://bagdown-payment.netlify.app";
+  let hostedDomain = "https://aura1payy.netlify.app";
   try {
     if (document.currentScript && document.currentScript.src) {
       const scriptUrl = new URL(document.currentScript.src);
@@ -54,8 +54,8 @@
   }
 
   const CONFIG = {
-    PUBLIC_KEY: "pk_1fc0-d72bd2-31f-a22a1",
-    TID: "TMN009875",
+    PUBLIC_KEY: "pk_00e8-b5b37d-77e-5eac3",
+    TID: "TMN010226",
     VERIFY_API: "/api/verify",
     HOSTED_DOMAIN: hostedDomain,
     PATHS: {
